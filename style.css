@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 .hero{
-    width: 100%;
-    min-height: 100vh;
+    width: 130%;
+    min-height: 120vh;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     display: flex;
     align-items: center;
@@ -18,24 +18,27 @@
     font-size: 45px;
     font-weight: 500px;
     margin-top: -50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    margin-right: 150px;
 
 }
 .hero h1 span{
     color:#a8eb12;
 }
 textarea{
-    width: 600px;
-    height: 250px;
+    width: 620px;
+    height: 400px;
     background: #70e0d1;
     color:#051937;
     font-size: 15px;
     border: 0;
     outline: 0;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     resize: none;
     margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 200px;
     font-size: 20px;
     
 }
@@ -44,10 +47,11 @@ textarea::placeholder{
     color: #000000;
 }
 .row{
-    width: 600px;
+    width: 400px;
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-right: 150px;
 }
 button{
     background: #06f068;
@@ -70,7 +74,7 @@ select{
     color: #050404;
     background: #e3e4e3;
     height: 50px;
-    padding: 0 20px;
+    padding: 0 30px;
     outline: 0;
     border: 0;
     border-radius: 35px;
